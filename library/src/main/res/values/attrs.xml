@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GoTopLayout">
+        <attr name="goto_top_icon" format="reference" />
+        <attr name="goto_top_visible_item" format="reference|integer" />
+    </declare-styleable>
+</resources>
