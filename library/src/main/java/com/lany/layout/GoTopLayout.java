@@ -104,6 +104,7 @@ public class GoTopLayout extends FrameLayout {
                 } else if (mTargetView instanceof RecyclerView) {
                     ((RecyclerView) mTargetView).scrollToPosition(0);
                 }
+                mGotoTopBtn.setVisibility(GONE);
             }
         });
         addView(mGotoTopBtn, params);
